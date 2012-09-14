@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1c734deb-e23c-4a95-9fd1-ec979b34dc16" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://devapi.logan.newdawntech.com/UCAPI/JustWareApi.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="JustWareApi.xsd" MetadataType="Schema" ID="6b2df416-26a4-4147-9d07-deb321351ec4" SourceId="1" SourceUrl="https://devapi.logan.newdawntech.com/UCAPI/JustWareApi.svc?xsd=xsd4" />
+    <MetadataFile FileName="JustWareApi.wsdl" MetadataType="Wsdl" ID="19b845cb-a6ae-4b29-a8e4-b32e8cec73f1" SourceId="1" SourceUrl="https://devapi.logan.newdawntech.com/UCAPI/JustWareApi.svc?wsdl" />
+    <MetadataFile FileName="JustWareApi.disco" MetadataType="Disco" ID="3f965154-fbfd-48ff-ae3f-428da473cd98" SourceId="1" SourceUrl="https://devapi.logan.newdawntech.com/UCAPI/JustWareApi.svc?disco" />
+    <MetadataFile FileName="JustWareApi1.xsd" MetadataType="Schema" ID="196af019-d653-418d-be8f-cf3bae88b90e" SourceId="1" SourceUrl="https://devapi.logan.newdawntech.com/UCAPI/JustWareApi.svc?xsd=xsd0" />
+    <MetadataFile FileName="JustWareApi2.xsd" MetadataType="Schema" ID="cb61d9dc-3733-42e1-8f08-46bb8c86926f" SourceId="1" SourceUrl="https://devapi.logan.newdawntech.com/UCAPI/JustWareApi.svc?xsd=xsd2" />
+    <MetadataFile FileName="JustWareApi3.xsd" MetadataType="Schema" ID="ca3cc3b6-4abf-4fec-ac84-76b7c15b5f3a" SourceId="1" SourceUrl="https://devapi.logan.newdawntech.com/UCAPI/JustWareApi.svc?xsd=xsd3" />
+    <MetadataFile FileName="JustWareApi4.xsd" MetadataType="Schema" ID="b911a696-dfeb-4d3f-ad71-293a48fb7ead" SourceId="1" SourceUrl="https://devapi.logan.newdawntech.com/UCAPI/JustWareApi.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
